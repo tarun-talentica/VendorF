@@ -1,0 +1,6 @@
+framework module VFramework {
+  umbrella header "VFramework.h"
+
+  export *
+  module * { export * }
+}
