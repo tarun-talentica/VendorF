@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage            = 'http://www.talentica.com'
   s.authors             = { 'Tarun Sharma' => 'taruns@talentica.com' }
   s.summary             = 'A cocoa pod containing the Vendor framework.'
-  s.source              = { :http => 'http://127.0.0.1:8000' }
+  s.source              = { :git => 'https://github.com/tarun-talentica/VendorF.git' }
   s.default_subspec = 'Lite'
 
   s.subspec 'Lite' do |lite|
